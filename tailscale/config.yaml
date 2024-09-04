@@ -1,8 +1,8 @@
 ---
-name: Tailscale
+name: Tailscale no Host
 version: dev
 slug: tailscale-no-host
-description: Zero config VPN for building secure networks
+description: Zero config VPN for building secure networks (now without network:host!)
 url: https://github.com/fritz3n/addon-tailscale-no-host
 ingress: true
 ingress_port: 0
