@@ -17,6 +17,9 @@ init: false
 hassio_api: true
 map:
   - share:rw
+privileged:
+ - NET_ADMIN
+ - NET_RAW
 schema:
   accept_dns: bool?
   accept_routes: bool?
